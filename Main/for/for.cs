@@ -11,14 +11,18 @@ int c = Convert.ToInt32(Console.ReadLine()); // кількість відріз�
 Console.WriteLine("Введіть кінець відрізку: ");
 b = Convert.ToDouble(Console.ReadLine()); // кінець відрізку
 
-double h = (b - a) / c;  // довжина кожного відрізку
+double h = (b - a) / c; // довжина кожного відрізку
 
 Console.WriteLine($"Довжина кожного відрізку: {h}");
 Console.Write($"Точки розбиття відрізку [{a}, {b}]: ");
 
+Console.ForegroundColor = ConsoleColor.Green;
+
 for (int i = 0; i <= c; i++)
 {
     double x = a + i * h;
-    Console.Write($"\n{x}; ");
+    Console.Write($"\n{x} ");
 }
+
+Console.ResetColor();
 Console.WriteLine();
