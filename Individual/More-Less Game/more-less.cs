@@ -14,12 +14,14 @@ int attempt = 0;
 
 while (attempt < maxAttempts)
 {
-    Console.Write("Введіть число від 1 до 10: ");
+    Console.Write("\nВведіть число від 1 до 10: ");
     int guess = int.Parse(Console.ReadLine());
 
     if (guess == secretNumber)
     {
-        Console.WriteLine("Ви вгадали!");
+        Console.ForegroundColor = ConsoleColor.Green;
+        Console.WriteLine("\n\nВи вгадали!");
+        Console.ResetColor();
         return;
     }
     else if (guess < secretNumber)
@@ -33,4 +35,6 @@ while (attempt < maxAttempts)
 
     attempt++;
 }
-        Console.WriteLine("Ви не вгадали за {0} спроб.", maxAttempts);
+Console.ForegroundColor = ConsoleColor.Red;
+Console.WriteLine("\n\nВи не вгадали за {0} спроб.", maxAttempts);
+Console.ResetColor();
