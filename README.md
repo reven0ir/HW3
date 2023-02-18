@@ -69,6 +69,6 @@
 
 <a href="https://ibb.co/HK2yBBg"><img src="https://i.ibb.co/rQthFFy/Screenshot-41.png" alt="Screenshot-41" border="0"></a>
 
-Скріншот виконання програми у разі, якщо число не являється степенем двійки:
+Скріншот виконання програми у разі, якщо число **не** являється степенем двійки:
 
 <a href="https://ibb.co/sjKT46v"><img src="https://i.ibb.co/31pxbMy/Screenshot-42.png" alt="Screenshot-42" border="0"></a>
