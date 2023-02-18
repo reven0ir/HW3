@@ -1,4 +1,11 @@
-﻿Console.OutputEncoding = System.Text.Encoding.Default;
+﻿/*
+ 
+ Дано число. Визначити, чи є це число степенем двійки.
+
+ */
+
+
+Console.OutputEncoding = System.Text.Encoding.Default;
 
 Console.WriteLine("Введіть число, яке треба визначити чи є це число степенем двійки: ");
 int num = Convert.ToInt32(Console.ReadLine()); // вводимо число, яке перевіряємо
